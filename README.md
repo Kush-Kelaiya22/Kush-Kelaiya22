@@ -1,7 +1,12 @@
 ## Hi there 👋
 
 # 💫 About Me:
-🔭 I’m currently working on Emulation<br>👯 I’m looking to collaborate on Industry based projects and low level system projects<br>🤝 I’m looking for help with graphics and audio<br>🌱 I’m currently learning C/C++, Python, Lua<br>💬 Ask me about C<br>⚡ Fun fact I love retro games
+🔭 I’m currently working on Emulation<br>
+👯 I’m looking to collaborate on Industry based projects and low level system projects<br>
+🤝 I’m looking for help with graphics and audio<br>
+🌱 I’m currently learning C/C++, Python, Lua<br>
+💬 Ask me about C<br>
+⚡ Fun fact I love retro games
 
 
 ## 🌐 Socials:
