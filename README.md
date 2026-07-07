@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+🔭 I’m currently working on a custom RTOS for Arduino and ESPs<br>👯 I’m looking to collaborate on OS development including making and maintaing drivers and embedded systems and programming applications<br>🤝 I’m looking for help with OS architecture and design<br>🌱 I’m currently learning funcamentals of RTOS and OS<br>⚡ Fun fact I am a quick learner
 
 
 ## 🌐 Socials:
