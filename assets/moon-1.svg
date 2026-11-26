@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 150" width="412" height="150">
+  <rect x="1" y="1" width="410" height="148" rx="10" fill="#0a0f1e" stroke="#1e293b" stroke-width="1.5"/>
+  <circle cx="182" cy="49" r="0.8" fill="#cbd5e1" opacity="0.25"/>
+  <circle cx="156" cy="103" r="1.2" fill="#cbd5e1" opacity="0.43"/>
+  <circle cx="58" cy="15" r="1.7" fill="#cbd5e1" opacity="0.61"/>
+  <circle cx="392" cy="75" r="0.8" fill="#cbd5e1" opacity="0.79"/>
+  <circle cx="174" cy="99" r="1.2" fill="#cbd5e1" opacity="0.25"/>
+  <circle cx="68" cy="91" r="1.7" fill="#cbd5e1" opacity="0.43"/>
+  <circle cx="74" cy="105" r="0.8" fill="#cbd5e1" opacity="0.61"/>
+  <circle cx="240" cy="115" r="1.2" fill="#cbd5e1" opacity="0.79"/>
+  <circle cx="358" cy="35" r="1.7" fill="#cbd5e1" opacity="0.25"/>
+  <circle cx="116" cy="31" r="0.8" fill="#cbd5e1" opacity="0.43"/>
+  <circle cx="282" cy="15" r="1.2" fill="#cbd5e1" opacity="0.61"/>
+  <circle cx="16" cy="115" r="1.7" fill="#cbd5e1" opacity="0.79"/>
+  <circle cx="286" cy="109" r="0.8" fill="#cbd5e1" opacity="0.25"/>
+  <circle cx="84" cy="117" r="1.2" fill="#cbd5e1" opacity="0.43"/>
+  <circle cx="18" cy="35" r="1.7" fill="#cbd5e1" opacity="0.61"/>
+  <circle cx="240" cy="45" r="0.8" fill="#cbd5e1" opacity="0.79"/>
+  <circle cx="326" cy="27" r="1.2" fill="#cbd5e1" opacity="0.25"/>
+  <circle cx="268" cy="63" r="1.7" fill="#cbd5e1" opacity="0.43"/>
+  <text x="24" y="32" font-family="'Courier New', Consolas, monospace" font-size="11" font-weight="bold" letter-spacing="1.4" fill="#facc15">MOON 01</text>
+  <!-- Ringed Moon Icon -->
+  <ellipse cx="374" cy="30" rx="16" ry="5" fill="none" stroke="#f472b6" stroke-width="1.5" opacity="0.6" transform="rotate(-18 374 30)"/>
+  <circle cx="374" cy="30" r="8" fill="#f472b6"/>
+
+  <text x="24" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">Safe-C</text>
+  <text x="24" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Safe-C: Native compile-time memory</text>
+  <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">safety plugin and toolchain addon for...</text>
+
+  <text x="24" y="130" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#94a3b8">★ 1   ⑂ 0</text>
+  <circle cx="110" cy="126" r="5" fill="#f34b7d"/>
+  <text x="121" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">C++</text>
+</svg>
