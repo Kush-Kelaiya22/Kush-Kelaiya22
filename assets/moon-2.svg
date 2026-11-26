@@ -28,6 +28,6 @@
   <text x="24" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">algorithms plays a crucial role in...</text>
 
   <text x="24" y="130" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#94a3b8">★ 1   ⑂ 0</text>
-  <circle cx="110" cy="126" r="5" fill="#da5b0b"/>
+  <circle cx="110" cy="126" r="5" fill="#DA5B0B"/>
   <text x="121" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#cbd5e1">Jupyter Notebook</text>
 </svg>
