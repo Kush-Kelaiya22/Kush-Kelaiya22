@@ -41,7 +41,3 @@
   <a href="https://instagram.com/kushkelaiya">Instagram</a> ·
   <a href="mailto:kelaiyakush@gmail.com">Email</a>
 </p>
-
----
-
-<sub>Solar System · planets are languages, comets are recent pushes · ![](https://komarev.com/ghpvc/?username=Kush-Kelaiya22&icon=0&color=facc15&style=flat-square)</sub>
