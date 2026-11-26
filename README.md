@@ -41,7 +41,3 @@
 <img src="./assets/activity-card.svg" alt="GitHub Activity" width="100%" />
 
 </div>
-
----
-
-<sub>Pixel Studio · inspired by GitSkins · ![](https://komarev.com/ghpvc/?username=Kush-Kelaiya22&icon=0&color=4ade80&style=flat-square)</sub>
