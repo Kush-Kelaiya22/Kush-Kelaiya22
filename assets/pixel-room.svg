@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="840" height="380" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="wallpaper" width="24" height="380" patternUnits="userSpaceOnUse">
+      <rect width="12" height="380" fill="#181f30"/>
+      <rect x="12" width="12" height="380" fill="#1d2538"/>
+    </pattern>
+    <clipPath id="screen-clip">
+      <rect x="316" y="132" width="208" height="104" rx="2"/>
+    </clipPath>
+    <style>
+      .commit-scroll {
+        animation: scrollUp 12s linear infinite;
+      }
+      .cat-z1 {
+        animation: floatZ 3s ease-in-out infinite;
+      }
+      .cat-z2 {
+        animation: floatZ 3s ease-in-out 1.2s infinite;
+      }
+      @keyframes scrollUp {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-78px); }
+      }
+      @keyframes floatZ {
+        0%, 100% { opacity: 0.25; transform: translateY(0px); }
+        50% { opacity: 0.95; transform: translateY(-5px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Rounded outer frame -->
+  <rect width="840" height="380" rx="12" fill="url(#wallpaper)"/>
+
+  <!-- Baseboard & Wooden Floor -->
+  <rect x="0" y="302" width="840" height="8" fill="#2c1d14"/>
+  <rect x="0" y="310" width="840" height="70" fill="#462f20"/>
+  <rect x="0" y="326" width="840" height="3" fill="#372418"/>
+  <rect x="0" y="344" width="840" height="3" fill="#372418"/>
+  <rect x="0" y="362" width="840" height="3" fill="#372418"/>
+
+  <!-- Night Window (Left) -->
+  <rect x="64" y="64" width="144" height="128" fill="#382519"/>
+  <rect x="72" y="72" width="60" height="52" fill="#0b1021"/>
+  <rect x="140" y="72" width="60" height="52" fill="#0b1021"/>
+  <rect x="72" y="132" width="60" height="52" fill="#0d1428"/>
+  <rect x="140" y="132" width="60" height="52" fill="#0d1428"/>
+  <!-- Window sill -->
+  <rect x="56" y="192" width="160" height="10" fill="#523724"/>
+  <!-- Stars & Moon -->
+  <rect x="86" y="88" width="4" height="4" fill="#cbd5e1"/>
+  <rect x="114" y="106" width="4" height="4" fill="#94a3b8"/>
+  <rect x="154" y="84" width="4" height="4" fill="#cbd5e1"/>
+  <rect x="92" y="148" width="4" height="4" fill="#64748b"/>
+  <rect x="150" y="162" width="4" height="4" fill="#94a3b8"/>
+  <!-- Pixel crescent moon -->
+  <rect x="168" y="96" width="16" height="16" fill="#f8fafc"/>
+  <rect x="174" y="96" width="12" height="10" fill="#0b1021"/>
+
+  <!-- Name Signboard -->
+  <rect x="278" y="42" width="284" height="52" fill="#3b2618"/>
+  <rect x="284" y="48" width="272" height="40" fill="#f3ebd8"/>
+  <text x="420" y="75" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="24" font-weight="bold" letter-spacing="3" fill="#18181b">KUSH KELAIYA</text>
+
+  <!-- Wall Clock -->
+  <circle cx="676" cy="84" r="26" fill="#2c1e16"/>
+  <circle cx="676" cy="84" r="21" fill="#f3ebd8"/>
+  <rect x="674" y="69" width="4" height="17" fill="#18181b"/>
+  <rect x="674" y="82" width="13" height="4" fill="#18181b"/>
+
+  <!-- Bookshelves (Right) -->
+  <!-- Top shelf -->
+  <rect x="606" y="156" width="164" height="10" fill="#5c3d28"/>
+  <!-- Books representing languages -->
+  <rect x="616" y="120" width="14" height="36" fill="#e11d48"/> <!-- C++ -->
+  <rect x="632" y="126" width="12" height="30" fill="#2563eb"/> <!-- C -->
+  <rect x="646" y="116" width="14" height="40" fill="#06b6d4"/> <!-- Go -->
+  <rect x="662" y="124" width="12" height="32" fill="#f59e0b"/> <!-- Zig -->
+  <rect x="676" y="120" width="14" height="36" fill="#10b981"/> <!-- Python -->
+  <rect x="692" y="128" width="12" height="28" fill="#6366f1"/> <!-- Lua -->
+  <rect x="706" y="122" width="14" height="34" fill="#f97316"/> <!-- Java -->
+  <!-- Bottom shelf -->
+  <rect x="606" y="216" width="164" height="10" fill="#5c3d28"/>
+  <rect x="624" y="200" width="22" height="16" fill="#7c3aed"/>
+  <rect x="720" y="196" width="18" height="20" fill="#475569"/>
+
+  <!-- Desk -->
+  <rect x="242" y="248" width="356" height="14" fill="#68452d"/>
+  <rect x="256" y="262" width="14" height="58" fill="#4f3320"/>
+  <rect x="570" y="262" width="14" height="58" fill="#4f3320"/>
+
+  <!-- Desk Lamp -->
+  <rect x="268" y="236" width="24" height="12" fill="#334155"/>
+  <rect x="276" y="170" width="8" height="66" fill="#475569"/>
+  <polygon points="262,146 298,146 306,172 254,172" fill="#eab308"/>
+  <polygon points="258,172 302,172 314,210 246,210" fill="#fde047" opacity="0.12"/>
+
+  <!-- Monitor -->
+  <rect x="404" y="236" width="32" height="12" fill="#334155"/>
+  <rect x="386" y="244" width="68" height="4" fill="#475569"/>
+  <rect x="308" y="124" width="224" height="116" rx="4" fill="#334155"/>
+  <rect x="316" y="132" width="208" height="100" fill="#090d16"/>
+
+  <!-- Scrolling Commits inside Monitor -->
+  <g clip-path="url(#screen-clip)" font-family="'Courier New', Consolas, monospace" font-size="9.5" fill="#4ade80">
+    <g class="commit-scroll">
+      <text x="322" y="148">Safe-C: Merge pull request #27</text>
+      <text x="322" y="164">Safe-C: docs: update GitHub Pages</text>
+      <text x="322" y="180">Safe-C: feat: add C89-C23 &amp; C++08</text>
+      <text x="322" y="196">RTOS: feat: scheduler tick ISR</text>
+      <text x="322" y="212">RTOS: fix: ESP32 task stack align</text>
+      <text x="322" y="228">Safe-C: Merge pull request #27</text>
+      <text x="322" y="244">Safe-C: docs: update GitHub Pages</text>
+      <text x="322" y="260">Safe-C: feat: add C89-C23 &amp; C++08</text>
+      <text x="322" y="276">RTOS: feat: scheduler tick ISR</text>
+      <text x="322" y="292">RTOS: fix: ESP32 task stack align</text>
+    </g>
+  </g>
+
+  <!-- Coffee Mug -->
+  <rect x="526" y="226" width="20" height="22" fill="#e2e8f0"/>
+  <rect x="546" y="232" width="6" height="10" fill="#cbd5e1"/>
+
+  <!-- Chair (in front of desk) -->
+  <rect x="444" y="262" width="52" height="12" fill="#334155"/>
+  <rect x="464" y="274" width="12" height="36" fill="#1e293b"/>
+  <rect x="446" y="308" width="48" height="6" fill="#1e293b"/>
+
+  <!-- Potted Plant (Left) -->
+  <rect x="148" y="276" width="36" height="34" fill="#9a4b2b"/>
+  <rect x="144" y="270" width="44" height="8" fill="#b45935"/>
+  <rect x="163" y="232" width="6" height="38" fill="#15803d"/>
+  <rect x="142" y="244" width="22" height="10" fill="#22c55e"/>
+  <rect x="169" y="234" width="24" height="10" fill="#22c55e"/>
+  <rect x="148" y="224" width="20" height="10" fill="#4ade80"/>
+
+  <!-- Sleeping Pixel Cat (Right) -->
+  <rect x="646" y="294" width="52" height="16" fill="#d97706"/>
+  <rect x="692" y="284" width="20" height="18" fill="#f59e0b"/>
+  <rect x="694" y="278" width="6" height="6" fill="#f59e0b"/>
+  <rect x="706" y="278" width="6" height="6" fill="#f59e0b"/>
+  <rect x="632" y="298" width="14" height="6" fill="#b45309"/>
+  <text x="722" y="270" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#94a3b8" class="cat-z1">Z</text>
+  <text x="734" y="256" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#64748b" class="cat-z2">z</text>
+
+  <!-- Subtle corner tag -->
+  <text x="822" y="366" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#94a3b8" opacity="0.6">pixel-studio</text>
+</svg>
